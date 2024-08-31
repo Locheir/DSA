@@ -16,3 +16,6 @@ print_items(5)
 
 # But for this type of situation we drop the constant with n.
 # So the actual time complexity is not O(2n) but O(n).
+
+# The constant number also depends on the how slow or fast the computer is.
+# Hence, we ignore this type of constants and just consider O(n) 
