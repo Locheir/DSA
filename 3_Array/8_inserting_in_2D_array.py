@@ -48,3 +48,8 @@ def insert_in_2d_array(arr, nums, pos, type):
         return "Wrong type specified !"
 
 print(insert_in_2d_array(arr, [12,13,14,15], 1, 'row'))
+
+# OR we can use the in-build function called np.insert()
+
+new_arr = np.insert(arr, 0, [[1,2,3,4]], axis=1)
+print(new_arr)
